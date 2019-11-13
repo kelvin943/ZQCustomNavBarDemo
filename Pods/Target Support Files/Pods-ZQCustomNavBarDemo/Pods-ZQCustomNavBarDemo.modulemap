@@ -1,0 +1,6 @@
+framework module Pods_ZQCustomNavBarDemo {
+  umbrella header "Pods-ZQCustomNavBarDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

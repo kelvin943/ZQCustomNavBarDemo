@@ -1,0 +1,122 @@
+{
+  "name": "ZQFoundation",
+  "version": "0.1.1",
+  "summary": "basic or common components.",
+  "description": "zq common  module description",
+  "homepage": "https://github.com/kelvin943/ZQFoundation",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Macro Zhang": "quan943@163.com"
+  },
+  "source": {
+    "git": "git@github.com:kelvin943/ZQFoundation.git",
+    "tag": "0.1.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "static_framework": true,
+  "requires_arc": true,
+  "source_files": "ZQFoundation.h",
+  "subspecs": [
+    {
+      "name": "ZQCommon",
+      "source_files": "ZQCommon/*.h",
+      "subspecs": [
+        {
+          "name": "Category",
+          "source_files": "ZQCommon/Category/**/*.{h,m}"
+        },
+        {
+          "name": "Macro",
+          "source_files": "ZQCommon/Macro/**/*.{h,m}"
+        }
+      ]
+    },
+    {
+      "name": "ZQUIKit",
+      "source_files": "ZQUIKit/*.h",
+      "subspecs": [
+        {
+          "name": "Common",
+          "source_files": "ZQUIKit/Common/**/*.{h,m}",
+          "dependencies": {
+            "ZQFoundation/ZQCommon/Category": [
+
+            ]
+          }
+        },
+        {
+          "name": "ZQCustomizeBar",
+          "source_files": "ZQUIKit/ZQCustomizeBar/**/*.{h,m}"
+        },
+        {
+          "name": "ZQBaseTabBarVC",
+          "source_files": "ZQUIKit/ZQBaseTabBarVC/**/*.{h,m}"
+        },
+        {
+          "name": "ZQBaseModel",
+          "source_files": "ZQUIKit/ZQBaseModel/**/*.{h,m}",
+          "dependencies": {
+            "YYModel": [
+              "1.0.4"
+            ]
+          }
+        },
+        {
+          "name": "ZQBaseViewModel",
+          "source_files": "ZQUIKit/ZQBaseViewModel/**/*.{h,m}"
+        },
+        {
+          "name": "ZQBaseViewController",
+          "source_files": "ZQUIKit/ZQBaseViewController/**/*.{h,m}"
+        },
+        {
+          "name": "ZQTableViewController",
+          "source_files": "ZQUIKit/ZQTableViewController/**/*.{h,m}",
+          "dependencies": {
+            "ZQFoundation/ZQUIKit/ZQBaseViewController": [
+
+            ],
+            "ZQFoundation/ZQUIKit/ZQBaseModel": [
+
+            ],
+            "ZQFoundation/ZQCommon/Category": [
+
+            ],
+            "MJRefresh": [
+              "3.2.0"
+            ]
+          }
+        },
+        {
+          "name": "ZQPageViewController",
+          "source_files": "ZQUIKit/ZQPageViewController/**/*.{h,m}",
+          "dependencies": {
+            "ZQFoundation/ZQUIKit/ZQBaseViewController": [
+
+            ]
+          }
+        },
+        {
+          "name": "ZQHoverViewController",
+          "source_files": "ZQUIKit/ZQHoverViewController/**/*.{h,m}",
+          "dependencies": {
+            "ZQFoundation/ZQUIKit/ZQBaseViewController": [
+
+            ],
+            "ZQFoundation/ZQUIKit/ZQPageViewController": [
+
+            ],
+            "ZQFoundation/ZQCommon/Category": [
+
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

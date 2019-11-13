@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CA45C8864AA5CA71BD368B0 /* Pods_ZQCustomNavBarDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B657EE88C5965EB1105A29 /* Pods_ZQCustomNavBarDemo.framework */; };
+		6CD1FE4F237C4DF4008FA1CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD1FE4E237C4DF4008FA1CB /* AppDelegate.m */; };
+		6CD1FE52237C4DF4008FA1CB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD1FE51237C4DF4008FA1CB /* SceneDelegate.m */; };
+		6CD1FE55237C4DF4008FA1CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD1FE54237C4DF4008FA1CB /* ViewController.m */; };
+		6CD1FE58237C4DF4008FA1CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CD1FE56237C4DF4008FA1CB /* Main.storyboard */; };
+		6CD1FE5A237C4DF6008FA1CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CD1FE59237C4DF6008FA1CB /* Assets.xcassets */; };
+		6CD1FE5D237C4DF6008FA1CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CD1FE5B237C4DF6008FA1CB /* LaunchScreen.storyboard */; };
+		6CD1FE60237C4DF6008FA1CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD1FE5F237C4DF6008FA1CB /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29B657EE88C5965EB1105A29 /* Pods_ZQCustomNavBarDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZQCustomNavBarDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55C27069679B399271853CD7 /* Pods-ZQCustomNavBarDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZQCustomNavBarDemo.release.xcconfig"; path = "Target Support Files/Pods-ZQCustomNavBarDemo/Pods-ZQCustomNavBarDemo.release.xcconfig"; sourceTree = "<group>"; };
+		6CD1FE4A237C4DF4008FA1CB /* ZQCustomNavBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZQCustomNavBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CD1FE4D237C4DF4008FA1CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6CD1FE4E237C4DF4008FA1CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6CD1FE50237C4DF4008FA1CB /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		6CD1FE51237C4DF4008FA1CB /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		6CD1FE53237C4DF4008FA1CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6CD1FE54237C4DF4008FA1CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6CD1FE57237C4DF4008FA1CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6CD1FE59237C4DF6008FA1CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CD1FE5C237C4DF6008FA1CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6CD1FE5E237C4DF6008FA1CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CD1FE5F237C4DF6008FA1CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82AC30AFAE30E760E1581560 /* Pods-ZQCustomNavBarDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZQCustomNavBarDemo.debug.xcconfig"; path = "Target Support Files/Pods-ZQCustomNavBarDemo/Pods-ZQCustomNavBarDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CD1FE47237C4DF4008FA1CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA45C8864AA5CA71BD368B0 /* Pods_ZQCustomNavBarDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EEE164A6A61949DF49B0E89 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82AC30AFAE30E760E1581560 /* Pods-ZQCustomNavBarDemo.debug.xcconfig */,
+				55C27069679B399271853CD7 /* Pods-ZQCustomNavBarDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5F73DF20813188698EC7FA72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B657EE88C5965EB1105A29 /* Pods_ZQCustomNavBarDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CD1FE41237C4DF4008FA1CB = {
+			isa = PBXGroup;
+			children = (
+				6CD1FE4C237C4DF4008FA1CB /* ZQCustomNavBarDemo */,
+				6CD1FE4B237C4DF4008FA1CB /* Products */,
+				5EEE164A6A61949DF49B0E89 /* Pods */,
+				5F73DF20813188698EC7FA72 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6CD1FE4B237C4DF4008FA1CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CD1FE4A237C4DF4008FA1CB /* ZQCustomNavBarDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CD1FE4C237C4DF4008FA1CB /* ZQCustomNavBarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6CD1FE4D237C4DF4008FA1CB /* AppDelegate.h */,
+				6CD1FE4E237C4DF4008FA1CB /* AppDelegate.m */,
+				6CD1FE50237C4DF4008FA1CB /* SceneDelegate.h */,
+				6CD1FE51237C4DF4008FA1CB /* SceneDelegate.m */,
+				6CD1FE53237C4DF4008FA1CB /* ViewController.h */,
+				6CD1FE54237C4DF4008FA1CB /* ViewController.m */,
+				6CD1FE56237C4DF4008FA1CB /* Main.storyboard */,
+				6CD1FE59237C4DF6008FA1CB /* Assets.xcassets */,
+				6CD1FE5B237C4DF6008FA1CB /* LaunchScreen.storyboard */,
+				6CD1FE5E237C4DF6008FA1CB /* Info.plist */,
+				6CD1FE5F237C4DF6008FA1CB /* main.m */,
+			);
+			path = ZQCustomNavBarDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CD1FE49237C4DF4008FA1CB /* ZQCustomNavBarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CD1FE63237C4DF6008FA1CB /* Build configuration list for PBXNativeTarget "ZQCustomNavBarDemo" */;
+			buildPhases = (
+				8A6107D7D928B6CC73FE2023 /* [CP] Check Pods Manifest.lock */,
+				6CD1FE46237C4DF4008FA1CB /* Sources */,
+				6CD1FE47237C4DF4008FA1CB /* Frameworks */,
+				6CD1FE48237C4DF4008FA1CB /* Resources */,
+				9DD9AA12F2A17F61333BA790 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZQCustomNavBarDemo;
+			productName = ZQCustomNavBarDemo;
+			productReference = 6CD1FE4A237C4DF4008FA1CB /* ZQCustomNavBarDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CD1FE42237C4DF4008FA1CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = macro;
+				TargetAttributes = {
+					6CD1FE49237C4DF4008FA1CB = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 6CD1FE45237C4DF4008FA1CB /* Build configuration list for PBXProject "ZQCustomNavBarDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CD1FE41237C4DF4008FA1CB;
+			productRefGroup = 6CD1FE4B237C4DF4008FA1CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CD1FE49237C4DF4008FA1CB /* ZQCustomNavBarDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CD1FE48237C4DF4008FA1CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CD1FE5D237C4DF6008FA1CB /* LaunchScreen.storyboard in Resources */,
+				6CD1FE5A237C4DF6008FA1CB /* Assets.xcassets in Resources */,
+				6CD1FE58237C4DF4008FA1CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8A6107D7D928B6CC73FE2023 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZQCustomNavBarDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DD9AA12F2A17F61333BA790 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZQCustomNavBarDemo/Pods-ZQCustomNavBarDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZQCustomNavBarDemo/Pods-ZQCustomNavBarDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZQCustomNavBarDemo/Pods-ZQCustomNavBarDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CD1FE46237C4DF4008FA1CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CD1FE55237C4DF4008FA1CB /* ViewController.m in Sources */,
+				6CD1FE4F237C4DF4008FA1CB /* AppDelegate.m in Sources */,
+				6CD1FE60237C4DF6008FA1CB /* main.m in Sources */,
+				6CD1FE52237C4DF4008FA1CB /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6CD1FE56237C4DF4008FA1CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CD1FE57237C4DF4008FA1CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6CD1FE5B237C4DF6008FA1CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CD1FE5C237C4DF6008FA1CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CD1FE61237C4DF6008FA1CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6CD1FE62237C4DF6008FA1CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CD1FE64237C4DF6008FA1CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82AC30AFAE30E760E1581560 /* Pods-ZQCustomNavBarDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DW4EHKV48E;
+				INFOPLIST_FILE = ZQCustomNavBarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.macro.ZQCustomNavBarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6CD1FE65237C4DF6008FA1CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55C27069679B399271853CD7 /* Pods-ZQCustomNavBarDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DW4EHKV48E;
+				INFOPLIST_FILE = ZQCustomNavBarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.macro.ZQCustomNavBarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CD1FE45237C4DF4008FA1CB /* Build configuration list for PBXProject "ZQCustomNavBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CD1FE61237C4DF6008FA1CB /* Debug */,
+				6CD1FE62237C4DF6008FA1CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CD1FE63237C4DF6008FA1CB /* Build configuration list for PBXNativeTarget "ZQCustomNavBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CD1FE64237C4DF6008FA1CB /* Debug */,
+				6CD1FE65237C4DF6008FA1CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CD1FE42237C4DF4008FA1CB /* Project object */;
+}

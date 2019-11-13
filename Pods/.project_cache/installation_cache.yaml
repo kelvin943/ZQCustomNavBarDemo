@@ -1,0 +1,43 @@
+BUILD_CONFIGURATIONS:
+  Debug: :debug
+  Release: :release
+CACHE_KEYS:
+  MJRefresh:
+    BUILD_SETTINGS_CHECKSUM:
+      MJRefresh: 5e3eb75db52e764d4d0bdfcd3e3b082f
+    CHECKSUM: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
+    SPECS:
+      - MJRefresh (3.2.0)
+  Pods-ZQCustomNavBarDemo:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: a71ef670552ee36050676716eace67b8
+      Release: a71ef670552ee36050676716eace67b8
+  YYModel:
+    BUILD_SETTINGS_CHECKSUM:
+      YYModel: c396aa8d6ab507d14ddc96d014e87e3c
+    CHECKSUM: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+    SPECS:
+      - YYModel (1.0.4)
+  ZQFoundation:
+    BUILD_SETTINGS_CHECKSUM:
+      ZQFoundation: 3f0b5c1500b9b0fe7e6a1f046371ce29
+    CHECKOUT_OPTIONS:
+      :commit: d99dadf8fe81c0859ee689c12de01e7a3781bfc0
+      :git: "git@github.com:kelvin943/ZQFoundation.git"
+    CHECKSUM: ff060bd3a7b205f167342a9343e1bc71116e67ab
+    SPECS:
+      - ZQFoundation (0.1.1)
+      - ZQFoundation/ZQCommon (0.1.1)
+      - ZQFoundation/ZQCommon/Category (0.1.1)
+      - ZQFoundation/ZQCommon/Macro (0.1.1)
+      - ZQFoundation/ZQUIKit (0.1.1)
+      - ZQFoundation/ZQUIKit/Common (0.1.1)
+      - ZQFoundation/ZQUIKit/ZQBaseModel (0.1.1)
+      - ZQFoundation/ZQUIKit/ZQBaseTabBarVC (0.1.1)
+      - ZQFoundation/ZQUIKit/ZQBaseViewController (0.1.1)
+      - ZQFoundation/ZQUIKit/ZQBaseViewModel (0.1.1)
+      - ZQFoundation/ZQUIKit/ZQCustomizeBar (0.1.1)
+      - ZQFoundation/ZQUIKit/ZQHoverViewController (0.1.1)
+      - ZQFoundation/ZQUIKit/ZQPageViewController (0.1.1)
+      - ZQFoundation/ZQUIKit/ZQTableViewController (0.1.1)
+OBJECT_VERSION: 50
