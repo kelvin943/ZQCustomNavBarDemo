@@ -1,5 +1,5 @@
 #import "SceneDelegate.h"
-
+#import "ZQControllerManager.h"
 @interface SceneDelegate ()
 
 @end
@@ -8,10 +8,32 @@
 
 
 - (void)scene:(UIScene *)scene willConnectToSession:(UISceneSession *)session options:(UISceneConnectionOptions *)connectionOptions {
-    // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
-    // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
-    // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
+    UIWindowScene *windowScene = (UIWindowScene *)scene;
+    self.window = [[UIWindow alloc] initWithWindowScene:windowScene];
+    self.window.frame = windowScene.coordinateSpace.bounds;
+//    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = [[ZQControllerManager sharedZQControllerManager] rootViewController];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
 }
+
+
+
+- (void) setUpAppearance{
+    //避免同一个界面上能同时点击多个Button
+    [[UIButton appearance] setExclusiveTouch:YES];
+    // 进行UIScrollView 全局设置 不计算内边距
+    if (@available(iOS 11.0, *)){
+        UITableView.appearance.estimatedRowHeight = 0;
+        UITableView.appearance.estimatedSectionFooterHeight = 0;
+        UITableView.appearance.estimatedSectionHeaderHeight = 0;
+        [[UIScrollView appearance] setContentInsetAdjustmentBehavior:UIScrollViewContentInsetAdjustmentNever];
+    }
+//    ZQCustomNavBar.appearance.barColor = ZQColorHex(0xC91A1E);
+    
+    ZQCustomNavBar.appearance.barColor = [UIColor redColor];
+}
+
 
 
 - (void)sceneDidDisconnect:(UIScene *)scene {

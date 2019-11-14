@@ -54,7 +54,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   ZQFoundation:
-    :commit: d99dadf8fe81c0859ee689c12de01e7a3781bfc0
+    :commit: 85a52915bc54999b65a73a4fe42034869055fcd1
     :git: "git@github.com:kelvin943/ZQFoundation.git"
 
 SPEC CHECKSUMS:

@@ -14,6 +14,8 @@
 #import "BaseTableViewController.h"
 #import "BaseViewController.h"
 #import "UIColor+ZQAdd.h"
+#import "UIViewController+ZQCustomizeNavBar.h"
+#import "ZQMacros.h"
 
 
 @interface BaseTableViewController ()
@@ -24,7 +26,12 @@
 
 - (void)viewWillLayoutSubviews{
     [super viewWillLayoutSubviews];
-    self.tableView.frame = self.view.bounds;
+    if (self.zq_prefersNavigationBarHidden) {
+         self.tableView.frame = self.view.bounds;
+    }else {
+        [self.view bringSubviewToFront:self.zq_CustomNavBar];
+        self.tableView.frame = CGRectMake(0, ZQNavBarHeight, ZQScreenWidth, self.view.bounds.size.height - ZQNavBarHeight);
+    }
 }
 
 //手动初始化

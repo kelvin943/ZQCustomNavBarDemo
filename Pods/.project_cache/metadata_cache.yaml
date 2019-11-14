@@ -1,16 +1,16 @@
 MJRefresh:
   LABEL: MJRefresh
-  PROJECT_PATH: "/Users/macro/project/github/ZQCustomNavBarDemo/Pods/MJRefresh.xcodeproj"
+  PROJECT_PATH: "/Users/zhangquan526/Desktop/ZQCustomNavBarDemo/Pods/MJRefresh.xcodeproj"
   UUID: E94AEF767442EDAAAAB2129CDFA2C2ED
 Pods-ZQCustomNavBarDemo:
   LABEL: Pods-ZQCustomNavBarDemo
-  PROJECT_PATH: "/Users/macro/project/github/ZQCustomNavBarDemo/Pods/Pods.xcodeproj"
+  PROJECT_PATH: "/Users/zhangquan526/Desktop/ZQCustomNavBarDemo/Pods/Pods.xcodeproj"
   UUID: 7BB7A3DC4043E76986CB39588F42A014
 YYModel:
   LABEL: YYModel
-  PROJECT_PATH: "/Users/macro/project/github/ZQCustomNavBarDemo/Pods/YYModel.xcodeproj"
+  PROJECT_PATH: "/Users/zhangquan526/Desktop/ZQCustomNavBarDemo/Pods/YYModel.xcodeproj"
   UUID: B24F71FDC23D2B2E241DE51DECC7ED5F
 ZQFoundation:
   LABEL: ZQFoundation
-  PROJECT_PATH: "/Users/macro/project/github/ZQCustomNavBarDemo/Pods/ZQFoundation.xcodeproj"
+  PROJECT_PATH: "/Users/zhangquan526/Desktop/ZQCustomNavBarDemo/Pods/ZQFoundation.xcodeproj"
   UUID: 5E4E580D65B639C36E05D7FD90DA2D3A

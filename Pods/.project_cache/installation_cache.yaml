@@ -22,7 +22,7 @@ CACHE_KEYS:
     BUILD_SETTINGS_CHECKSUM:
       ZQFoundation: 3f0b5c1500b9b0fe7e6a1f046371ce29
     CHECKOUT_OPTIONS:
-      :commit: d99dadf8fe81c0859ee689c12de01e7a3781bfc0
+      :commit: 85a52915bc54999b65a73a4fe42034869055fcd1
       :git: "git@github.com:kelvin943/ZQFoundation.git"
     CHECKSUM: ff060bd3a7b205f167342a9343e1bc71116e67ab
     SPECS:
@@ -40,4 +40,4 @@ CACHE_KEYS:
       - ZQFoundation/ZQUIKit/ZQHoverViewController (0.1.1)
       - ZQFoundation/ZQUIKit/ZQPageViewController (0.1.1)
       - ZQFoundation/ZQUIKit/ZQTableViewController (0.1.1)
-OBJECT_VERSION: 50
+OBJECT_VERSION: 51
